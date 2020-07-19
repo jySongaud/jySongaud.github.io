@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jySongaud.github.io/about/index.html</loc>
+    
+    <lastmod>2020-07-19T18:36:39.362Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jySongaud.github.io/2020/07/18/post-zai-macos-shang-gen-ju-wei-yang-de-jiao-cheng-da-jian-hexo-github-bo-ke-de-yi-xie-bu-chong/</loc>
     
-    <lastmod>2020-07-19T06:15:13.180Z</lastmod>
+    <lastmod>2020-07-19T18:22:19.994Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jySongaud.github.io/contact/index.html</loc>
+    
+    <lastmod>2020-07-19T16:53:46.029Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jySongaud.github.io/friends/index.html</loc>
+    
+    <lastmod>2020-07-19T16:52:20.821Z</lastmod>
     
   </url>
   
@@ -17,13 +38,6 @@
   
   <url>
     <loc>https://jySongaud.github.io/404.html</loc>
-    
-    <lastmod>2020-04-05T02:43:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jySongaud.github.io/about/index.html</loc>
     
     <lastmod>2020-04-05T02:43:43.000Z</lastmod>
     
@@ -45,20 +59,6 @@
   
   <url>
     <loc>https://jySongaud.github.io/categories/index.html</loc>
-    
-    <lastmod>2020-04-05T02:43:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jySongaud.github.io/friends/index.html</loc>
-    
-    <lastmod>2020-04-05T02:43:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jySongaud.github.io/contact/index.html</loc>
     
     <lastmod>2020-04-05T02:43:43.000Z</lastmod>
     

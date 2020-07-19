@@ -482,14 +482,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    751
+                    855
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    3 分
                 </div>
                 
                 
@@ -534,7 +534,27 @@
 <pre><code>ssh-keygen -t rsa -C &quot;你注册Github的邮箱&quot;
 
 cat ~/.ssh/id_rsa/pub</code></pre><p>把生成的key复制粘贴到github中新建的SSH key的框中，名字可以随便取一个，然后确认保存。</p>
-<h3 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h3><h3 id="绑定域名（我没有买域名，跳过了该步）"><a href="#绑定域名（我没有买域名，跳过了该步）" class="headerlink" title="绑定域名（我没有买域名，跳过了该步）"></a>绑定域名（我没有买域名，跳过了该步）</h3><h3 id="备份博客源文件（我没有备份，跳过了该步）"><a href="#备份博客源文件（我没有备份，跳过了该步）" class="headerlink" title="备份博客源文件（我没有备份，跳过了该步）"></a>备份博客源文件（我没有备份，跳过了该步）</h3><h3 id="博客源代码下载"><a href="#博客源代码下载" class="headerlink" title="博客源代码下载"></a>博客源代码下载</h3><p>修改配置信息，</p>
+<h3 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h3><h3 id="绑定域名（我没有买域名，跳过了该步）"><a href="#绑定域名（我没有买域名，跳过了该步）" class="headerlink" title="绑定域名（我没有买域名，跳过了该步）"></a>绑定域名（我没有买域名，跳过了该步）</h3><h3 id="备份博客源文件（我没有备份，跳过了该步）"><a href="#备份博客源文件（我没有备份，跳过了该步）" class="headerlink" title="备份博客源文件（我没有备份，跳过了该步）"></a>备份博客源文件（我没有备份，跳过了该步）</h3><h3 id="博客源代码下载"><a href="#博客源代码下载" class="headerlink" title="博客源代码下载"></a>博客源代码下载</h3><p>修改配置信息</p>
+<ul>
+<li>blog/_config.yml 把所有原作者的信息替换为自己的</li>
+</ul>
+<ol>
+<li>Dream: 可以根据自己的职业替换成相关的</li>
+<li>socialLink：替换信息，暂且没有放的社交账户，不删除，变为注释，便于以后添加</li>
+<li>profile：替换信息</li>
+<li>myProjects: 替换信息</li>
+<li>mySkills: 替换信息</li>
+</ol>
+<ul>
+<li>blog/source/friends/index.md</li>
+</ul>
+<ul>
+<li><p>blog/source/CNAME 中删除原作者的域名</p>
+</li>
+<li><p>blog/themes/matery</p>
+</li>
+</ul>
+<p>Blog/themes/matery/layout/_partial/footer.ejs</p>
 <p><strong><u>从这一步往下，我只是完成了一部分的步骤，让博客可以运行基本的功能，所以接下来，我只把我做了的部分列出来。</u></strong></p>
 <h3 id="修改不蒜子初始化计数"><a href="#修改不蒜子初始化计数" class="headerlink" title="修改不蒜子初始化计数"></a><strong>修改不蒜子初始化计数</strong></h3><p>在/themes/matery/layout/_partial/footer.ejs 文件中 找到这两行，把两项的值都改为0</p>
 <pre><code>var pvcountOffset = 80000;  // 初始化首次数据
@@ -736,11 +756,11 @@ var uvcountOffset = 0;</code></pre>
 <script src="/libs/gitalk/gitalk.min.js"></script>
 <script>
     let gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: 'godweiyang.github.io',
-        owner: 'godweiyang',
-        admin: "godweiyang",
+        clientID: 'a20eab8bfca6d6e5a35f',
+        clientSecret: '99dc7d8a16124683f95cd0a66a562e1d7b09ec33',
+        repo: 'jySongaud.github.io',
+        owner: 'jySongaud',
+        admin: "jySongaud",
         id: '2020/07/18/post-zai-macos-shang-gen-ju-wei-yang-de-jiao-cheng-da-jian-hexo-github-bo-ke-de-yi-xie-bu-chong/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
@@ -1267,7 +1287,7 @@ var uvcountOffset = 0;</code></pre>
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">751</span>
+            <span class="white-color">855</span>
             
 
             <br>
@@ -1357,7 +1377,7 @@ var uvcountOffset = 0;</code></pre>
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2017, 09, 11, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t1 = Date.UTC(2020, 07, 18, 00, 00, 00); //北京时间2018-2-13 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
