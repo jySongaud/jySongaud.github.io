@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jySongaud.github.io/"/>
-  <updated>2020-07-18T17:14:54.696Z</updated>
+  <updated>2020-07-19T06:15:13.180Z</updated>
   <id>https://jySongaud.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在macOS上根据韦阳的教程搭建Hexo+Github博客的一些补充</title>
+    <link href="https://jySongaud.github.io/2020/07/18/post-zai-macos-shang-gen-ju-wei-yang-de-jiao-cheng-da-jian-hexo-github-bo-ke-de-yi-xie-bu-chong/"/>
+    <id>https://jySongaud.github.io/2020/07/18/post-zai-macos-shang-gen-ju-wei-yang-de-jiao-cheng-da-jian-hexo-github-bo-ke-de-yi-xie-bu-chong/</id>
+    <published>2020-07-19T01:35:05.000Z</published>
+    <updated>2020-07-19T06:15:13.180Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="blog" scheme="https://jySongaud.github.io/categories/blog/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>404</title>
@@ -29,38 +53,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>十大经典排序算法整理汇总（附代码）</title>
-    <link href="https://jySongaud.github.io/2020/02/16/sort-algorithms/"/>
-    <id>https://jySongaud.github.io/2020/02/16/sort-algorithms/</id>
-    <published>2020-02-16T20:09:23.000Z</published>
-    <updated>2020-04-05T02:43:43.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;关注公众号【算法码上来】，每日算法干货马上就来！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/medias/contact.jpg&quot; alt&gt;&lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="编程算法" scheme="https://jySongaud.github.io/categories/%E7%BC%96%E7%A8%8B%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="leetcode" scheme="https://jySongaud.github.io/tags/leetcode/"/>
-    
-      <category term="算法" scheme="https://jySongaud.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
