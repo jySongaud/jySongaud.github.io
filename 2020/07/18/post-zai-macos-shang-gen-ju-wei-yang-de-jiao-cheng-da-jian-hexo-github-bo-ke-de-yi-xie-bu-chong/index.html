@@ -766,6 +766,7 @@ var uvcountOffset = 0;</code></pre><p>再把下面这行代码中的按照建站
 
 <script src="/libs/gitalk/gitalk.min.js"></script>
 <script>
+    let title = location.pathname.substr(0, 50);
     let gitalk = new Gitalk({
         clientID: 'a20eab8bfca6d6e5a35f',
         clientSecret: '99dc7d8a16124683f95cd0a66a562e1d7b09ec33',
@@ -778,6 +779,7 @@ var uvcountOffset = 0;</code></pre><p>再把下面这行代码中的按照建站
 
     gitalk.render('gitalk-container');
 </script>
+
     
 
     
